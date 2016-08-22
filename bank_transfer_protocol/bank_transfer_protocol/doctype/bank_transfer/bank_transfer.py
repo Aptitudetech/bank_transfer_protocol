@@ -64,7 +64,7 @@ class BankTransfer(Document):
 		
 		str_save_file += "\nYC" + str(count).zfill(8) + str(total).replace('.','').replace(',','').zfill(14)
 		var_zero = 0
-		str_save_file += "\nz" + str(var_zero).zfill(14) + str(var_zero).zfill(5) +  str(total).replace('.','').replace(',','').zfill(14) + str(count).zfill(5)
+		str_save_file += "\nZ" + str(var_zero).zfill(14) + str(var_zero).zfill(5) +  str(total).replace('.','').replace(',','').zfill(14) + str(count).zfill(5)
 
 		save_file("file-bank-transfer.txt", str_save_file, self.doctype, self.name, is_private=True)
 
