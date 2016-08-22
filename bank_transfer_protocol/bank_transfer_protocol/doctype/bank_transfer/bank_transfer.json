@@ -1,0 +1,136 @@
+{
+ "allow_copy": 0, 
+ "allow_import": 1, 
+ "allow_rename": 0, 
+ "autoname": "naming_series:", 
+ "beta": 0, 
+ "creation": "2016-06-03 09:18:08.678675", 
+ "custom": 0, 
+ "docstatus": 0, 
+ "doctype": "DocType", 
+ "document_type": "Document", 
+ "editable_grid": 0, 
+ "fields": [
+  {
+   "fieldname": "bank_information", 
+   "fieldtype": "Section Break", 
+   "label": "Bank Information"
+  }, 
+  {
+   "bold": 1, 
+   "fieldname": "naming_series", 
+   "fieldtype": "Select", 
+   "label": "Series", 
+   "options": "BT-", 
+   "print_hide": 1, 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "bank_account", 
+   "fieldtype": "Link", 
+   "in_list_view": 1, 
+   "label": "Bank Account", 
+   "options": "Bank Detail", 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "column_break_1", 
+   "fieldtype": "Column Break"
+  }, 
+  {
+   "fieldname": "file_transfer_type", 
+   "fieldtype": "Select", 
+   "label": "File Transfer Type", 
+   "options": "\n80 byte\n1464 byte", 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "purchase_invoice_to_pay", 
+   "fieldtype": "Section Break", 
+   "label": "Purchase Invoice To Pay"
+  }, 
+  {
+   "fieldname": "items", 
+   "fieldtype": "Table", 
+   "label": "Items", 
+   "options": "Bank Transfer Item"
+  }, 
+  {
+   "fieldname": "section_break_total", 
+   "fieldtype": "Section Break"
+  }, 
+  {
+   "bold": 1, 
+   "fieldname": "total_transfer", 
+   "fieldtype": "Currency", 
+   "in_list_view": 1, 
+   "label": "Total Transfer", 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "file_creation_number", 
+   "fieldtype": "Data", 
+   "label": "Reference Number", 
+   "read_only": 1
+  }, 
+  {
+   "fieldname": "column_break_2", 
+   "fieldtype": "Column Break"
+  }, 
+  {
+   "fieldname": "transfert_date", 
+   "fieldtype": "Data", 
+   "label": "Transfert Date", 
+   "read_only": 1
+  }, 
+  {
+   "fieldname": "amended_from", 
+   "fieldtype": "Link", 
+   "label": "Amended From", 
+   "no_copy": 1, 
+   "options": "Bank Transfer", 
+   "print_hide": 1, 
+   "read_only": 1
+  }
+ ], 
+ "hide_heading": 0, 
+ "hide_toolbar": 0, 
+ "idx": 0, 
+ "image_view": 0, 
+ "in_create": 0, 
+ "in_dialog": 0, 
+ "is_submittable": 1, 
+ "issingle": 0, 
+ "istable": 0, 
+ "max_attachments": 0, 
+ "modified": "2016-08-21 21:45:53.027141", 
+ "modified_by": "cfortin@aptitudetech.net", 
+ "module": "Bank Transfer Protocol", 
+ "name": "Bank Transfer", 
+ "name_case": "", 
+ "owner": "cfortin@aptitudetech.net", 
+ "permissions": [
+  {
+   "amend": 1, 
+   "cancel": 1, 
+   "create": 1, 
+   "delete": 1, 
+   "email": 1, 
+   "export": 1, 
+   "import": 1, 
+   "print": 1, 
+   "read": 1, 
+   "report": 1, 
+   "role": "Bank Transfer Protocol", 
+   "share": 1, 
+   "submit": 1, 
+   "write": 1
+  }
+ ], 
+ "quick_entry": 0, 
+ "read_only": 0, 
+ "read_only_onload": 0, 
+ "sort_field": "modified", 
+ "sort_order": "DESC", 
+ "track_seen": 0
+}

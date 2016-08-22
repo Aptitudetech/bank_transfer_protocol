@@ -1,0 +1,102 @@
+{
+ "allow_copy": 0, 
+ "allow_import": 0, 
+ "allow_rename": 0, 
+ "autoname": "field:bank_name", 
+ "beta": 0, 
+ "creation": "2016-06-03 13:30:39.752711", 
+ "custom": 0, 
+ "docstatus": 0, 
+ "doctype": "DocType", 
+ "document_type": "Document", 
+ "editable_grid": 1, 
+ "fields": [
+  {
+   "fieldname": "bank_name", 
+   "fieldtype": "Data", 
+   "label": "Bank Name"
+  }, 
+  {
+   "fieldname": "account", 
+   "fieldtype": "Link", 
+   "label": "Account", 
+   "options": "Account"
+  }, 
+  {
+   "fieldname": "institution_number", 
+   "fieldtype": "Data", 
+   "label": "Institution number"
+  }, 
+  {
+   "fieldname": "branch_number", 
+   "fieldtype": "Data", 
+   "label": "Transit/Branch number"
+  }, 
+  {
+   "fieldname": "account_number", 
+   "fieldtype": "Data", 
+   "label": "Account number"
+  }, 
+  {
+   "fieldname": "originator_id", 
+   "fieldtype": "Data", 
+   "label": "Originator ID"
+  }, 
+  {
+   "fieldname": "originators_short", 
+   "fieldtype": "Data", 
+   "label": "Originator's Short Name "
+  }, 
+  {
+   "fieldname": "originators_long", 
+   "fieldtype": "Data", 
+   "label": "Originator's Long Name"
+  }, 
+  {
+   "fieldname": "file_creation_number", 
+   "fieldtype": "Data", 
+   "label": "File creation number"
+  }, 
+  {
+   "fieldname": "destination_data_centre_code", 
+   "fieldtype": "Data", 
+   "label": "Destination Data Centre Code"
+  }
+ ], 
+ "hide_heading": 0, 
+ "hide_toolbar": 0, 
+ "idx": 0, 
+ "image_view": 0, 
+ "in_create": 0, 
+ "in_dialog": 0, 
+ "is_submittable": 0, 
+ "issingle": 0, 
+ "istable": 0, 
+ "max_attachments": 0, 
+ "modified": "2016-08-15 20:56:21.592735", 
+ "modified_by": "cfortin@aptitudetech.net", 
+ "module": "Bank Transfer Protocol", 
+ "name": "Bank Detail", 
+ "name_case": "", 
+ "owner": "cfortin@aptitudetech.net", 
+ "permissions": [
+  {
+   "create": 1, 
+   "delete": 1, 
+   "email": 1, 
+   "export": 1, 
+   "print": 1, 
+   "read": 1, 
+   "report": 1, 
+   "role": "Bank Transfer Protocol", 
+   "share": 1, 
+   "write": 1
+  }
+ ], 
+ "quick_entry": 1, 
+ "read_only": 0, 
+ "read_only_onload": 0, 
+ "sort_field": "modified", 
+ "sort_order": "DESC", 
+ "track_seen": 0
+}
